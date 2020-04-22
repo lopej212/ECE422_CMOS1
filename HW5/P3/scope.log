@@ -1,0 +1,106 @@
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW5/P3/sim3.ac0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 231x341+1680+529
+wm geometry .sigmgr._PF:1 231x341+1774+502
+wm geometry .sigmgr._PF:1 231x341+1959+476
+wm geometry .sigmgr._PF:1 231x341+2051+484
+wm geometry .sigmgr._PF:1 231x341+2090+492
+wm geometry .sigmgr._PF:1 231x341+2101+493
+wm geometry .sigmgr._PF:1 231x341+2323+437
+wm geometry .sigmgr._PF:1 231x341+2338+439
+wm geometry .sigmgr._PF:1 231x341+2343+441
+wm geometry .sigmgr._PF:1 231x341+2378+434
+wm geometry .sigmgr._PF:1 231x341+2388+432
+wm geometry .sigmgr._PF:1 231x341+2395+430
+wm geometry .sigmgr._PF:1 231x341+2397+430
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW3/P2/sim2.ac0 1 openonly
+# PF:2
+wm geometry .sigmgr._PF:2 231x341+2059+545
+wm geometry .sigmgr._PF:2 231x341+2059+540
+wm geometry .sigmgr._PF:2 231x341+2067+519
+wm geometry .sigmgr._PF:2 231x341+2078+491
+wm geometry .sigmgr._PF:2 231x341+2094+454
+wm geometry .sigmgr._PF:2 231x341+2105+437
+wm geometry .sigmgr._PF:2 231x341+2112+430
+wm geometry .sigmgr._PF:2 231x341+2118+427
+wm geometry .sigmgr._PF:2 231x341+2122+426
+wm geometry .sigmgr._PF:2 231x341+2125+424
+wm geometry .sigmgr._PF:2 231x341+2126+424
+wm geometry .sigmgr._PF:2 231x341+2127+424
+wm geometry .sigmgr._PF:2 231x341+2127+425
+pf:read PF:2 i(vin)
+# WF:2:1
+Graph addsignal {WF:2:1 WF:2:1} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal0 Signal1
+pf:read PF:2 i(vsource)
+# WF:2:2
+Graph addsignal {WF:2:2 WF:2:2} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal2 Signal3
+Graph itemselect all add
+# Signal3
+Graph delsignal selected
+Graph:ClearItems
+pf:read PF:2 i(vsource)
+# WF:2:2
+Graph addsignal {WF:2:2 WF:2:2} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal0 Signal1
+Graph itemselect all add
+# Signal1
+Graph delsignal selected
+Graph:ClearItems
+pf:read PF:2 v(vd)
+# WF:2:3
+Graph addsignal {WF:2:3 WF:2:3} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal0 Signal1
+pf:read PF:2 v(vd)
+# WF:2:3
+Graph addsignal {WF:2:3 WF:2:3} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal2 Signal3
+Graph itemselect all add
+# Signal3
+Graph delsignal selected
+Graph:ClearItems
+pf:read PF:2 v(vd)
+# WF:2:3
+Graph addsignal {WF:2:3 WF:2:3} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal0 Signal1
+Graph itemselect all add
+# Signal1
+Graph delsignal selected
+Graph:ClearItems
+pf:read PF:1 v(vd)
+# WF:1:1
+Graph addsignal {WF:1:1 WF:1:1} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal0 Signal1
+Graph itemselect all add
+# Signal1
+Graph delsignal selected
+Graph:ClearItems
+ScopeSigMgr:Unload 0
+ScopeSigMgr:Unload 0
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW5/P3/sim3.ac0 1 openonly
+# PF:3
+wm geometry .sigmgr._PF:3 231x341+2096+509
+wm geometry .sigmgr._PF:3 231x341+2141+519
+wm geometry .sigmgr._PF:3 231x341+2140+519
+wm geometry .sigmgr._PF:3 231x341+2146+516
+wm geometry .sigmgr._PF:3 231x341+2190+485
+wm geometry .sigmgr._PF:3 231x341+2241+456
+wm geometry .sigmgr._PF:3 231x341+2299+430
+wm geometry .sigmgr._PF:3 231x341+2318+420
+wm geometry .sigmgr._PF:3 231x341+2321+419
+wm geometry .sigmgr._PF:3 231x341+2321+418
+pf:read PF:3 v(vd)
+# WF:3:1
+Graph addsignal {WF:3:1 WF:3:1} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal0 Signal1
+Mdi:Resize 689 460
+Mdi:Move 5 5
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph:DSel
+ScopeSigMgr:Unload 0 {{(1) sim3.ac0}}
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1

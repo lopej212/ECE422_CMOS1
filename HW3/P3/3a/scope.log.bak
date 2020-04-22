@@ -1,0 +1,133 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+787+75
+Mdi:ArrangeIcons
+wm geometry . 900x785+1122+0
+Mdi:ArrangeIcons
+wm geometry . 900x785+1539+27
+Mdi:ArrangeIcons
+wm geometry . 900x785+1812+48
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW3/P3/3a/sim3a.sw0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 231x341+2456+419
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW3/P3/3a/sim3a.sw0 1 replace
+# PF:1
+wm geometry .sigmgr._PF:1 231x341+2447+417
+wm geometry .sigmgr._PF:1 231x341+2439+414
+wm geometry .sigmgr._PF:1 231x341+2431+412
+wm geometry .sigmgr._PF:1 231x341+2420+409
+wm geometry .sigmgr._PF:1 231x341+2416+408
+wm geometry .sigmgr._PF:1 231x341+2415+408
+wm geometry .sigmgr._PF:1 231x341+2414+408
+wm geometry .sigmgr._PF:1 231x341+2414+407
+pf:read PF:1 par(rds3)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+GrMeas:AtX Graph0 Signal0 .9 xyrangeAll
+# M:0
+.frame1.mdi.mdi1.work.graph0 save -file /nfs/stak/users/lopezalj/ECE422/HW3/P4/NMOS_rds.png -format png  -x 0 -y 0 -w 488 -h 368 -colormode color
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph:DSel

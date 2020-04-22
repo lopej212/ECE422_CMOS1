@@ -1,0 +1,17 @@
+* "simulator" "HSPICE" 
+* "version" "K-2015.06-SP1 linux64"
+* "format" "HSP"
+* "rundate" "22:39:30 12/01/2019 "
+* "netlist" "sim3.sp "
+* "runtitle" "sim3"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vd =   1.2683        
++ vdc = 600.0000m       
++ vdd =   1.8000        
++ vg = 600.0000m       
+***   END: Saved Operating Point ***                     

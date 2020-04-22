@@ -1,0 +1,180 @@
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW3/Example/NMOS.sw0 1 openonly
+# PF:1
+pf:read PF:1 i(m1)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:1 i(vds)
+# WF:1:2
+Graph addsignal WF:1:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+Graph itemselect all add
+# Signal1
+Graph delsignal selected
+Graph:ClearItems
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW3/P1/sim1.sw0 1 openonly
+# PF:2
+ScopeSigMgr:Unload 0 {{(1) NMOS.sw0 [7]}}
+wm geometry .sigmgr._PF:2 231x341+750+461
+wm geometry .sigmgr._PF:2 231x341+749+456
+wm geometry .sigmgr._PF:2 231x341+746+451
+wm geometry .sigmgr._PF:2 231x341+745+443
+wm geometry .sigmgr._PF:2 231x341+743+436
+wm geometry .sigmgr._PF:2 231x341+741+430
+wm geometry .sigmgr._PF:2 231x341+740+424
+wm geometry .sigmgr._PF:2 231x341+736+418
+wm geometry .sigmgr._PF:2 231x341+736+413
+wm geometry .sigmgr._PF:2 231x341+734+408
+wm geometry .sigmgr._PF:2 231x341+734+406
+wm geometry .sigmgr._PF:2 231x341+731+402
+wm geometry .sigmgr._PF:2 231x341+730+398
+wm geometry .sigmgr._PF:2 231x341+730+397
+wm geometry .sigmgr._PF:2 231x341+728+395
+wm geometry .sigmgr._PF:2 231x341+729+394
+wm geometry .sigmgr._PF:2 231x341+728+395
+wm geometry .sigmgr._PF:2 231x341+728+393
+wm geometry .sigmgr._PF:2 231x341+728+394
+wm geometry .sigmgr._PF:2 231x341+728+393
+wm geometry .sigmgr._PF:2 231x341+728+392
+wm geometry .sigmgr._PF:2 231x341+728+391
+wm geometry .sigmgr._PF:2 231x341+728+392
+wm geometry .sigmgr._PF:2 231x341+728+390
+pf:read PF:2 i(m1)
+# WF:2:1
+Graph addsignal WF:2:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+ScopeSigMgr:Unload 0
+Graph0 delsignal Signal0
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW3/P1/sim1.sw0 1 openonly
+# PF:3
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW3/P1/sim1.sw0 1 replace
+# PF:4
+pf:read PF:4 i(m1)
+# WF:4:1
+Graph addsignal WF:4:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW3/P1/sim1.sw0 1 replace
+# PF:5
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW3/P1/sim1.ac0 1 openonly
+# PF:6
+wm geometry .sigmgr._PF:6 231x341+744+469
+wm geometry .sigmgr._PF:6 231x341+741+469
+wm geometry .sigmgr._PF:6 231x341+737+469
+wm geometry .sigmgr._PF:6 231x341+730+469
+wm geometry .sigmgr._PF:6 231x341+726+469
+wm geometry .sigmgr._PF:6 231x341+723+469
+wm geometry .sigmgr._PF:6 231x341+720+469
+wm geometry .sigmgr._PF:6 231x341+718+469
+wm geometry .sigmgr._PF:6 231x341+716+469
+wm geometry .sigmgr._PF:6 231x341+715+469
+ScopeSigMgr:Unload 0 {{(2) sim1.ac0}}
+ScopeSigMgr:Unload 0 {{(1) sim1.sw0}}
+Graph0 delsignal Signal1
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW3/P1/sim1.ac0 1 openonly
+# PF:7
+pf:read PF:7 v(vd)
+# WF:7:1
+Graph addsignal {WF:7:1 WF:7:1} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal0 Signal1
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW3/P1/sim1.ac0 1 replace
+# PF:8
+AimCalc
+AimBarItem:Hide .aimCalc
+wm withdraw .aimCalcConstForm
+AimBarItem:Show .aimCalc
+wm geometry .aimCalc 310x303+748+314
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph itemselect Signal2 add
+# Signal2
+AimCalc:GraphWaveform
+AimCalc:GraphWaveform
+AimCalc:GraphWaveform
+AimCalc:RollStack down
+AimCalc:RollStack up
+AimCalc:Enter PHase(v(vd))
+Graph:DSel
+AimCalc:Enter hHase(v(vd))a
+AimBarItem:Hide .aimCalc
+wm withdraw .aimCalcConstForm
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph itemselect Signal2 add
+# Signal2
+wm geometry .aimCalc 310x303+748+336
+AimBarItem:Show .aimCalc
+AimCalc:Enter hHase(v(vd))
+AimCalc:GraphWaveform
+AimCalc:GraphWaveform
+AimCalc:RollStack up
+AimCalc:RollStack down
+AimCalc:Enter { hHase(v(vd))}
+AimBarItem:Hide .aimCalc
+wm withdraw .aimCalcConstForm
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph itemselect Signal2 add
+# Signal2
+Graph itemselect Signal2 add
+# Signal2
+Graph:DSel
+wm geometry .aimCalc 310x303+748+358
+AimBarItem:Show .aimCalc
+AimCalc:Enter { hHase(v(vd))}
+AimCalc:ClearX
+AimCalc:ClearX
+AimCalc:ClearX
+AimCalc:ClearX
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+AimCalc:Enter {}
+AimCalc:Enter {WF:8:1 }
+Graph:DSel
+AimCalc:Enter WF:8:1
+AimCalc:DoFunc phase yes
+# WF:9:1
+AimCalc:DoFunc deriv yes
+# WF:10:1
+AimCalc:GraphWaveform
+# Signal4
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph itemselect Signal2 add
+# Signal2
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal4 add
+# Signal4
+AimCalc:Enter {WF:10:1 }
+Graph:DSel
+AimCalc:DoFunc deriv yes
+# WF:11:1
+GrMeas:AtX Graph0 Signal4 1k xyrangeAll
+# M:0
+AimBarItem:Hide .aimCalc
+wm withdraw .aimCalcConstForm
+ScopeSigMgr:Unload 0 {{(1) sim1.ac0}}
+Graph0 delsignal Signal3
+Graph0 delsignal Signal2

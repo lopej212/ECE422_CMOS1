@@ -1,0 +1,38 @@
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW3/P3/3b/sim3b.sw0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 231x341+1784+505
+wm geometry .sigmgr._PF:1 231x341+2002+545
+wm geometry .sigmgr._PF:1 231x341+2002+546
+wm geometry .sigmgr._PF:1 231x341+2002+545
+wm geometry .sigmgr._PF:1 231x341+2034+538
+wm geometry .sigmgr._PF:1 231x341+2189+507
+wm geometry .sigmgr._PF:1 231x341+2358+495
+wm geometry .sigmgr._PF:1 231x341+2406+490
+wm geometry .sigmgr._PF:1 231x341+2405+490
+wm geometry .sigmgr._PF:1 231x341+2463+476
+wm geometry .sigmgr._PF:1 231x341+2659+471
+wm geometry .sigmgr._PF:1 231x341+2735+492
+wm geometry .sigmgr._PF:1 231x341+2759+501
+wm geometry .sigmgr._PF:1 231x341+2761+502
+wm geometry .sigmgr._PF:1 231x341+2785+476
+wm geometry .sigmgr._PF:1 231x341+2826+446
+wm geometry .sigmgr._PF:1 231x341+2855+432
+wm geometry .sigmgr._PF:1 231x341+2870+424
+wm geometry .sigmgr._PF:1 231x341+2875+420
+wm geometry .sigmgr._PF:1 231x341+2878+417
+wm geometry .sigmgr._PF:1 231x341+2880+415
+wm geometry .sigmgr._PF:1 231x341+2881+414
+wm geometry .sigmgr._PF:1 231x341+2880+415
+wm geometry .sigmgr._PF:1 231x341+2880+416
+pf:read PF:1 par(rds)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+GrMeas:AtX Graph0 Signal0 .9 xyrangeAll
+# M:0
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph:DSel
+.frame1.mdi.mdi1.work.graph0 save -file /nfs/stak/users/lopezalj/ECE422/HW3/P4/PMOS_rds.png -format png  -x 0 -y 0 -w 488 -h 368 -colormode color

@@ -1,0 +1,301 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+349+90
+Mdi:ArrangeIcons
+wm geometry . 900x785+831+90
+Mdi:ArrangeIcons
+wm geometry . 900x785+1166+35
+Mdi:ArrangeIcons
+wm geometry . 900x785+1283+10
+Mdi:ArrangeIcons
+wm geometry . 900x785+1378+0
+Mdi:ArrangeIcons
+wm geometry . 900x785+1928+35
+Mdi:ArrangeIcons
+wm geometry . 900x785+2039+40
+Mdi:ArrangeIcons
+wm geometry . 900x785+2041+39
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+2026+39
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW3/P4/sim4.ac0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 231x341+2747+502
+wm geometry .sigmgr._PF:1 231x341+2770+494
+wm geometry .sigmgr._PF:1 231x341+2770+493
+wm geometry .sigmgr._PF:1 231x341+2770+491
+wm geometry .sigmgr._PF:1 231x341+2770+484
+wm geometry .sigmgr._PF:1 231x341+2693+417
+wm geometry .sigmgr._PF:1 231x341+2660+405
+wm geometry .sigmgr._PF:1 231x341+2659+405
+pf:read PF:1 v(vdn)
+# WF:1:1
+Graph addsignal {WF:1:1 WF:1:1} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal0 Signal1
+Mdi:ArrangeIcons
+wm geometry . 900x785+1952+40
+Mdi:ArrangeIcons
+wm geometry . 900x785+1765+25
+Mdi:ArrangeIcons
+wm geometry . 900x785+1623+11
+Mdi:ArrangeIcons
+wm geometry . 900x785+1545+13
+Mdi:ArrangeIcons
+wm geometry . 900x785+1535+14
+Mdi:ArrangeIcons
+wm geometry . 900x785+1530+15
+Mdi:ArrangeIcons
+wm geometry . 900x785+1528+15
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Mdi:Resize 782 430
+Mdi:Move 5 5
+Mdi:ArrangeIcons
+wm geometry . 906x785+1528+15
+Mdi:ArrangeIcons
+wm geometry . 915x785+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1023x793+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1085x793+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1127x794+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1173x794+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1195x794+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1215x794+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1229x794+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1235x794+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1243x794+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1277x794+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1303x798+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1345x806+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1367x810+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1386x815+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1395x816+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1406x817+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1427x820+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1436x821+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1438x824+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1439x829+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1440x836+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1440x853+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1439x858+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1439x859+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1436x862+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1422x868+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1401x875+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1387x875+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1381x873+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1380x873+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1378x873+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1379x873+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1380x873+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1384x872+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1386x872+1528+15
+Mdi:ArrangeIcons
+wm geometry . 1385x871+1528+15
+Mdi:Resize 970 487
+Mdi:Move 5 5
+wm geometry .sigmgr._PF:1 231x341+2619+389
+wm geometry .sigmgr._PF:1 231x341+2616+387
+pf:read PF:1 v(vx)
+# WF:1:2
+Graph addsignal {WF:1:2 WF:1:2} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal2 Signal3
+pf:read PF:1 v(vx)
+# WF:1:2
+Graph addsignal {WF:1:2 WF:1:2} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal4 Signal5
+Graph itemselect all add
+# Signal5
+Graph delsignal selected
+Graph:ClearItems
+pf:read PF:1 v(vdd)
+# WF:1:3
+Graph addsignal {WF:1:3 WF:1:3} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal0 Signal1
+pf:read PF:1 v(vdn)
+# WF:1:1
+Graph addsignal {WF:1:1 WF:1:1} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal2 Signal3
+pf:read PF:1 v(vdn)
+# WF:1:1
+Graph addsignal {WF:1:1 WF:1:1} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal4 Signal5
+Graph itemselect all add
+# Signal5
+Graph delsignal selected
+Graph:ClearItems
+pf:read PF:1 v(vdn)
+# WF:1:1
+Graph addsignal {WF:1:1 WF:1:1} -region {new new} -yview {cphasedeg(y) db(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal0 Signal1
+AimCalc
+AimBarItem:Hide .aimCalc
+wm withdraw .aimCalcConstForm
+AimBarItem:Show .aimCalc
+wm geometry .aimCalc 310x303+2593+350
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph itemselect Signal1 add
+# Signal1
+AimCalc:ClearX
+AimCalc:Enter {WF:1:1 }
+Graph:DSel
+AimCalc:Enter {WF:1:1 }
+AimCalc:DoFunc tentox yes
+# WF:2:1
+AimCalc:GraphWaveform
+# Signal2 Signal3
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+AimCalc:Enter {WF:1:1 }
+Graph:DSel
+AimCalc:ClearX
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+AimCalc:Enter {WF:1:1 }
+Graph:DSel
+Graph:DSel
+Graph:Select Graph0
+AimCalc:Enter WF:3:1
+AimCalc:GraphWaveform
+# Signal4 Signal5
+AimCalc:ClearX
+Graph:DSel
+AimCalc:GraphWaveform
+# Signal6 Signal7
+Mdi:Resize 990 659
+Mdi:Move 5 5

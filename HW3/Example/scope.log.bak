@@ -1,0 +1,99 @@
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+407+362
+wm geometry .sigmgr 376x204+571+120
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW3/Example/NMOS.sw0 1 openonly
+# PF:1
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW3/Example/NMOS.sw0 1 replace
+# PF:1
+wm geometry .sigmgr 376x204+571+136
+wm geometry .sigmgr 376x204+570+158
+wm geometry .sigmgr 376x204+564+194
+wm geometry .sigmgr 376x204+561+238
+wm geometry .sigmgr 376x204+558+286
+wm geometry .sigmgr 376x204+558+319
+wm geometry .sigmgr 376x204+558+352
+wm geometry .sigmgr 376x204+562+377
+wm geometry .sigmgr 376x204+562+378
+wm geometry .sigmgr 376x204+563+378
+wm geometry .sigmgr 376x204+574+344
+wm geometry .sigmgr 376x204+577+295
+wm geometry .sigmgr 376x204+577+224
+wm geometry .sigmgr 376x204+577+187
+wm geometry .sigmgr 376x204+577+166
+wm geometry .sigmgr 376x204+575+157
+wm geometry .sigmgr 376x204+574+152
+wm geometry .sigmgr 376x204+572+148
+wm geometry .sigmgr 376x204+570+144
+wm geometry .sigmgr 376x204+568+140
+wm geometry .sigmgr 376x204+566+137
+wm geometry .sigmgr 376x204+563+135
+wm geometry .sigmgr 376x204+563+133
+wm geometry .sigmgr 376x204+562+132
+wm geometry .sigmgr 376x204+562+131
+wm geometry .sigmgr 376x204+563+127
+wm geometry .sigmgr 376x204+566+124
+wm geometry .sigmgr 376x204+567+124
+wm geometry .sigmgr 376x204+566+124
+ScopeSigMgr:loadpffile /nfs/stak/users/lopezalj/ECE422/HW3/sim1.sw0 1 openonly
+# PF:2
+wm geometry .sigmgr._PF:1 231x341+0+0
+wm geometry .sigmgr._PF:2 231x341+0+0
+wm geometry .sigmgr._PF:2 231x341+25+0
+wm geometry .sigmgr._PF:2 231x341+107+19
+wm geometry .sigmgr._PF:2 231x341+188+73
+wm geometry .sigmgr._PF:2 231x341+255+128
+wm geometry .sigmgr._PF:2 231x341+288+156
+wm geometry .sigmgr._PF:2 231x341+291+157
+wm geometry .sigmgr._PF:2 231x341+290+158
+wm geometry .sigmgr._PF:2 231x341+290+159
+wm geometry .sigmgr._PF:2 231x341+320+189
+wm geometry .sigmgr._PF:2 231x341+357+226
+wm geometry .sigmgr._PF:2 231x341+409+275
+wm geometry .sigmgr._PF:2 231x341+441+306
+wm geometry .sigmgr._PF:2 231x341+462+322
+wm geometry .sigmgr._PF:2 231x341+463+323
+wm geometry .sigmgr._PF:2 231x341+466+324
+wm geometry .sigmgr._PF:2 231x341+469+324
+wm geometry .sigmgr._PF:2 231x341+474+325
+wm geometry .sigmgr._PF:2 231x341+477+327
+wm geometry .sigmgr._PF:2 231x341+482+329
+wm geometry .sigmgr._PF:2 231x341+487+330
+wm geometry .sigmgr._PF:2 231x341+494+331
+wm geometry .sigmgr._PF:2 231x341+501+332
+wm geometry .sigmgr._PF:2 231x341+503+332
+wm geometry .sigmgr._PF:2 231x341+505+332
+wm geometry .sigmgr._PF:2 231x341+527+332
+wm geometry .sigmgr._PF:2 231x341+558+336
+wm geometry .sigmgr._PF:2 231x341+590+345
+wm geometry .sigmgr._PF:2 231x341+616+362
+wm geometry .sigmgr._PF:2 231x341+630+373
+wm geometry .sigmgr._PF:2 231x341+634+378
+wm geometry .sigmgr._PF:2 231x341+635+380
+wm geometry .sigmgr._PF:1 231x341+464+291
+wm geometry .sigmgr._PF:1 231x341+542+278
+wm geometry .sigmgr._PF:1 231x341+682+297
+wm geometry .sigmgr._PF:1 231x341+784+338
+wm geometry .sigmgr._PF:1 231x341+798+344
+wm geometry .sigmgr._PF:1 231x341+819+338
+wm geometry .sigmgr._PF:1 231x341+850+327
+wm geometry .sigmgr._PF:1 231x341+901+319
+wm geometry .sigmgr._PF:1 231x341+906+319
+ScopeSigMgr:Unload 0 {{(1) NMOS.sw0 [7]}}
+wm geometry .sigmgr._PF:2 231x341+643+363
+wm geometry .sigmgr._PF:2 231x341+664+333
+wm geometry .sigmgr._PF:2 231x341+668+329
+wm geometry .sigmgr._PF:2 231x341+670+325
+wm geometry .sigmgr._PF:2 231x341+672+324
+wm geometry .sigmgr._PF:2 231x341+671+324
+pf:read PF:2 i(m1)
+# WF:2:1
+Graph addsignal WF:2:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph:DSel
+Graph itemselect AxisX(0) add
+# AxisX(0)
+Graph:DSel

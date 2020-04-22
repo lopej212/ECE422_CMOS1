@@ -1,0 +1,22 @@
+* "simulator" "HSPICE" 
+* "version" "K-2015.06-SP1 linux64"
+* "format" "HSP"
+* "rundate" "17:55:31 12/13/2019 "
+* "netlist" "project.sp "
+* "runtitle" "finalproject"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 = 362.2927m       
++ 2 = 684.9013m       
++ 3 =-433.4566m       
++ 4 =-433.4566m       
++ vdd = 900.0000m       
++ vi1 = 100.0000m       
++ vi2 = 100.0000m       
++ vout = -62.8227m       
++ vss =-900.0000m       
+***   END: Saved Operating Point ***                     
